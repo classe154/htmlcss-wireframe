@@ -1,11 +1,66 @@
 /* Reset CSS */
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
- body {
+/* Stile Generale */
+
+body {
     width: 512px;
     outline: 1px solid red;
- }
+    font-family: "Roboto", sans-serif;
+}
+
+/* Utility Class */
+.text-center {
+    text-align: center;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.text-white {
+    color: white;
+}
+
+.font-cursive {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+.header {
+    border-bottom: 5px solid black;
+    padding: 10px;
+}
+
+.header-title {}
+
+/* Footer */
+
+.footer {
+    border-top: 5px solid black;
+    padding: 15px 10px 40px 10px;
+}
+
+
+/* Card */
+
+.cards-container {
+    padding: 10px 25px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 18px;
+    min-height: 200px;
+}
